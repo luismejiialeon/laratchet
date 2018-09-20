@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42494695-73f3-4316-9f0e-2ca72f42ff79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laratchet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laratchet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/LaRatchetServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/LaRatchetServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/LaratchetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/LaratchetController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Facades/LaratchetFacade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facades/LaratchetFacade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Laratchet.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laratchet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/LaratchetServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/LaratchetServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Pusher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Pusher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceProviders/LaratchetServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceProviders/LaratchetServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/UserSessionTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/UserSessionTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/client.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/client.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/pusher.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/pusher.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,11 +84,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+            <state relative-caret-position="442">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -131,10 +123,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Laratchet.php" />
         <option value="$PROJECT_DIR$/src/ServiceProviders/LaratchetServiceProvider.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -246,7 +238,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1615000" />
+    <option name="totallyTimeSpent" value="1620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -282,8 +274,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -299,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        <state relative-caret-position="442">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
