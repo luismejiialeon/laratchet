@@ -1,4 +1,4 @@
-<?php namespace Barrot\Laratchet\Commands;
+<?php namespace SysMl\Laratchet\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
@@ -38,7 +38,7 @@ class LaRatchetServer extends Command {
 	public function fire()
 	{
         $this->info('Running Laratchet Push Server @ '.\Config::get('laratchet.pushServer').':'.\Config::get('laratchet.pushServerPort'));
-		$server = new \Barrot\Laratchet\Server\LaratchetServer();
+		$server = new \SysMl\Laratchet\Server\LaratchetServer();
         $server -> serve();
 	}
 

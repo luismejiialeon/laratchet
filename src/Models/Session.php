@@ -1,6 +1,6 @@
 <?php
 
-namespace Barrot\Laratchet\Models;
+namespace SysMl\Laratchet\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

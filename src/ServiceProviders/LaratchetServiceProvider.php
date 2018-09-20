@@ -1,4 +1,5 @@
-<?php namespace Barrot\Laratchet\ServiceProviders;
+<?php
+namespace SysMl\Laratchet\ServiceProviders;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,20 +25,20 @@ class LaratchetServiceProvider extends ServiceProvider {
 
 		$this->app['laratchet'] = $this-> app -> share(function($app){
 
-            return new \Barrot\Laratchet\Laratchet();
+            return new \SysMl\Laratchet\Laratchet();
         });
 
         $this->app->booting(function()
         {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Laratchet', '\Barrot\Laratchet\Facades\LaratchetFacade');
+            $loader->alias('Laratchet', '\SysMl\Laratchet\Facades\LaratchetFacade');
         });
 
-        $this->app->singleton('command.barrot.laratchetserver', function ($app) {
-            return $app['Barrot\Laratchet\Commands\LaRatchetServer'];
+        $this->app->singleton('command.sysMl.laratchetserver', function ($app) {
+            return $app['SysMl\Laratchet\Commands\LaRatchetServer'];
         });
 
-        $this->commands('command.barrot.laratchetserver');
+        $this->commands('command.sysMl.laratchetserver');
 
 
 	}

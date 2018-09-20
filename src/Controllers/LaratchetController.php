@@ -1,13 +1,13 @@
 <?php
 
-namespace Barrot\Laratchet\Controllers;
+namespace SysMl\Laratchet\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laratchet;
 
 /**
  * Class RatchetController
- * @package Barrot\Ratchet
+ * @package SysMl\Ratchet
  */
 class LaratchetController extends Controller {
 

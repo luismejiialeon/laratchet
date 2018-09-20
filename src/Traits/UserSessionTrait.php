@@ -1,6 +1,6 @@
 <?php
 
-namespace Barrot\Laratchet\Traits;
+namespace SysMl\Laratchet\Traits;
 
 
 trait UserSessionTrait {
@@ -13,7 +13,7 @@ trait UserSessionTrait {
      */
     public function session()
     {
-        return $this->hasOne('\Barrot\Laratchet\Models\Session','user_id');
+        return $this->hasOne('\SysMl\Laratchet\Models\Session','user_id');
     }
 
 }

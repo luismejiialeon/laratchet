@@ -56,7 +56,7 @@
             <div class="quote">{{Session::get('message')}}</div>
         @endif
         <div class="sendPush">
-            <a href="{{URL::action('\Barrot\Laratchet\Controllers\LaratchetController@pushTest')}}">Send push to clients.</a>
+            <a href="{{URL::action('\SysMl\Laratchet\Controllers\LaratchetController@pushTest')}}">Send push to clients.</a>
         </div>
     </div>
 </div>

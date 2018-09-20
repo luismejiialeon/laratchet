@@ -1,4 +1,4 @@
-<?php namespace Barrot\Laratchet\Facades;
+<?php namespace SysMl\Laratchet\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

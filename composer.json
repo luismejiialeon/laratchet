@@ -1,25 +1,31 @@
 {
-    "name": "barrot/laratchet",
-    "description": "Ratchet Push Implementation for Laravel 5",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ulrich Barrot",
-            "email": "m@u7x.de"
-        }
-    ],
-    "require": {
-    "php": ">=5.4.0",
+  "name": "luismejiialeon/laratchet",
+  "description": "Ratchet Push Implementation for Laravel 5.6",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luis Mejia",
+      "email": "m@a.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
     "illuminate/support": "5.0.*",
     "react/zmq": "0.4.*",
     "cboden/ratchet": "0.4.*"
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SysMl\\Laratchet\\ServiceProviders\\LaratchetServiceProvider"
+      ]
+    }
+  },
   "autoload": {
     "classmap": [
-
     ],
     "psr-4": {
-      "Barrot\\Laratchet\\": "src"
+      "SysMl\\Laratchet\\": "src"
     }
   },
   "minimum-stability": "stable"

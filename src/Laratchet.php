@@ -6,7 +6,7 @@
  * Description: The laratchet main class
  */
 
-namespace Barrot\Laratchet;
+namespace SysMl\Laratchet;
 
 use Illuminate\Database\Eloquent\Collection;
 
@@ -101,7 +101,7 @@ class Laratchet {
 
         foreach ($recipients AS $recipient)
         {
-            if(is_a($recipient->session,'\Barrot\Laratchet\Models\Session'))
+            if(is_a($recipient->session,'\SysMl\Laratchet\Models\Session'))
             {
                 $sessions[] = $recipient->session->id;
             }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Barrot\Laratchet\Server;
+namespace SysMl\Laratchet\Server;
 
 use Ratchet\Http\HttpServer;
 use Ratchet\Server\IoServer;

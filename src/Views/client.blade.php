@@ -65,7 +65,7 @@
                 <p class="warning">Or <a href="http://alexandervn.nl/2012/05/03/install-zeromq-php-ubuntu/">build</a> on your own</p>
             @endif
         </div>
-        <div class="visit">Hint: Visit <a target="_blank" href="{{URL::action('\Barrot\Laratchet\Controllers\LaratchetController@pusher')}}">this page</a> to send push messages.</div>
+        <div class="visit">Hint: Visit <a target="_blank" href="{{URL::action('\SysMl\Laratchet\Controllers\LaratchetController@pusher')}}">this page</a> to send push messages.</div>
     </div>
 </div>
 

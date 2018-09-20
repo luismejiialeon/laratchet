@@ -1,5 +1,5 @@
 <?php
-namespace Barrot\Laratchet\Server;
+namespace SysMl\Laratchet\Server;
 
 use Config;
 use Crypt;
@@ -11,7 +11,7 @@ use Ratchet\Wamp\WampServerInterface;
 /**
  * Class Pusher
  * @Source: http://socketo.me/docs/push (Modified for Laravel)
- * @package Barrot\Laratchet\Server
+ * @package SysMl\Laratchet\Server
  */
 class Pusher implements WampServerInterface {
 
